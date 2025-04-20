@@ -8,7 +8,7 @@ def dfs_example():
         ('belt', 'jacket'), ('shirt', 'belt'), ('shirt', 'tie'),
         ('tie', 'jacket'), ('socks', 'shoes')
     ])
-    G.add_node('watch')  # standalone node
+    G.add_node('watch')
     return list(nx.dfs_preorder_nodes(G))
 
 if __name__ == "__main__":
