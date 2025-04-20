@@ -1,5 +1,3 @@
-# kruskal_clrs.py
-
 import networkx as nx
 
 def kruskal_example():
