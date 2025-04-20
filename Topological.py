@@ -1,5 +1,3 @@
-# topological_sort_clrs.py
-
 import networkx as nx
 
 def topological_sort_example():
@@ -10,7 +8,7 @@ def topological_sort_example():
         ('belt', 'jacket'), ('shirt', 'belt'), ('shirt', 'tie'),
         ('tie', 'jacket'), ('socks', 'shoes')
     ])
-    G.add_node('watch')  # standalone node
+    G.add_node('watch')
     return list(nx.topological_sort(G))
 
 if __name__ == "__main__":
