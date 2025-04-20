@@ -1,5 +1,3 @@
-# dfs_clrs.py
-
 import networkx as nx
 
 def dfs_example():
